@@ -1,0 +1,50 @@
+{
+    "name": "vscode-neuron",
+    "displayName": "vscode-neuron",
+    "description": "Adds NEURON .hoc and .mod syntax highlighting.",
+    "version": "0.0.1",
+    "publisher": "imatlopez",
+    "icon": "icon.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/imatlopez/vscode-neuron"
+    },
+    "keywords": [
+        "neuron",
+        "yale",
+        ".hoc",
+        ".mod"
+    ],
+    "homepage": "https://github.com/imatlopez/vscode-neuron",
+    "bugs": {
+        "url": "https://github.com/imatlopez/vscode-neuron/issues"
+    },
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "neuron",
+            "aliases": ["Neuron", "neuron"],
+            "extensions": [".hoc"],
+            "configuration": "./language-configuration.json"
+        }, {
+            "id": "nmodl",
+            "aliases": ["Neuron", "neuron"],
+            "extensions": [".mod"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "neuron",
+            "scopeName": "source.neuron",
+            "path": "./syntaxes/neuron.tmLanguage"
+        }, {
+            "language": "nmodl",
+            "scopeName": "source.nmodl",
+            "path": "./syntaxes/nmodl.tmLanguage"
+        }]
+    }
+}

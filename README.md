@@ -1,8 +1,4 @@
-NEURON-for-Sublime-Text
+vsc-neuron
 =======================
 
-NEURON .hoc and .mod syntax highlighting for Sublime Text.
-
-**Installation:**
-
-Place .tmLanguage files in your user packages folder.
+Adds NEURON .hoc and .mod syntax highlighting into VS Code.
