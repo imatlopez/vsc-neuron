@@ -2,7 +2,7 @@
     "name": "vscode-neuron",
     "displayName": "vscode-neuron",
     "description": "Adds NEURON .hoc and .mod syntax highlighting.",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "imatlopez",
     "icon": "icon.png",
     "repository": {
@@ -34,7 +34,7 @@
         }, {
             "id": "nmodl",
             "aliases": ["Neuron", "neuron"],
-            "extensions": [".mod"],
+            "extensions": [".mod", ".inc"],
             "configuration": "./language-configuration.json"
         }],
         "grammars": [{

@@ -5,6 +5,7 @@
 	<key>fileTypes</key>
 	<array>
 		<string>mod</string>
+		<string>inc</string>
 	</array>
 	<key>name</key>
 	<string>NMODL</string>
