@@ -3,18 +3,18 @@
     "hoc"
   ],
   "name":"Neuron",
-  "patterns":[  
-    {  
-      "begin":"\/\/.*$",
+  "patterns":[
+    {
+      "begin":"\/\/",
       "beginCaptures":[  
         {  
-          "name":"punctuation.definition.comment.begin.neuron"
+          "name":"comment.line.begin.neuron"
         }
       ],
-      "end":"\n",
+      "end":"$\\n?",
       "endCaptures":[  
         {  
-          "name":"punctuation.definition.comment.begin.neuron"
+          "name":"comment.line.end.neuron"
         }
       ],
       "name":"comment.line.neuron"
@@ -23,13 +23,13 @@
       "begin":"\/\\*",
       "beginCaptures":[  
         {  
-          "name":"punctuation.definition.comment.begin.neuron"
+          "name":"comment.block.begin.neuron"
         }
       ],
       "end":"(\\1)\\*\/\\s?",
       "endCaptures":[  
         {  
-          "name":"punctuation.definition.comment.begin.neuron"
+          "name":"comment.block.end.neuron"
         }
       ],
       "name":"comment.block.neuron"
@@ -42,13 +42,13 @@
       "begin":"(\\\")",
       "beginCaptures":{  
         "1":{  
-          "name":"punctuation.definition.string.begin.neuron"
+          "name":"string.begin.neuron"
         }
       },
       "end":"(\\\")",
       "endCaptures":{  
         "1":{  
-          "name":"punctuation.definition.string.end.neuron"
+          "name":"string.end.neuron"
         }
       },
       "name":"string.quoted.double.neuron",
@@ -65,13 +65,13 @@
       "begin":"(\\')",
       "beginCaptures":{  
         "1":{  
-          "name":"punctuation.definition.string.begin.neuron"
+          "name":"string.begin.neuron"
         }
       },
       "end":"(\\')",
       "endCaptures":{  
         "1":{  
-          "name":"punctuation.definition.string.end.neuron"
+          "name":"string.end.neuron"
         }
       },
       "name":"string.quoted.single.neuron",
@@ -97,7 +97,7 @@
     },
     {  
       "match":"\\b(PI|E|GAMMA|DEG|PHI|FARADAY|R)\\b",
-      "name":"constant.other.neuron"
+      "name":"constant.numeric.neuron"
     },
     {  
       "match":"\\>|\\<|\\!|\\+|\\-|\\*|\\=|\\||\\&|\\^|\/|\/\/|\\%",
@@ -112,7 +112,7 @@
       "name":"keyword.control.neuron"
     },
     {  
-      "match":"\\b(sin|cos|atan|tanh|log|log10|exp|sqrt|int|abs|erf|erfc|atan2|system|prmat|solve|eqinit|plt|axis|plot|plotx|ploty|regraph|symbols|printg|xred|sred|ropen|wopen|xopen|hoc_stdout|chdir|fprint|fscan|sscanf|sprint|graph|graphmode|fmenu|lw|getstr|strcmp|setcolor|startsw|stopsw|object_id|allobjectvars|allobjects|xpanel|xbutton|xcheckbox|xstatebutton|xlabel|xmenu|xvalue|xpvalue|xradiobutton|xfixedvalue|xvarlabel|xslider|boolean_dialog|continue_dialog|string_dialog|doEvents|doNotify|ivoc_style|numarg|argtype|hoc_pointer_|nrn_mallinfo|execute|execute1|load_proc|load_func|load_template|load_file|load_java|unix_mac_pc|show_winio|nrn_load_dll|machine_name|saveaudit|retrieveaudit|coredump_on_error|checkpoint|quit|object_push|object_pop|pwman_place|save_session|print_session|show_errmess_always|execerror|variable_domain|name_declared|use_mcell_ran4|mcell_ran4|mcell_ran4_init|numprocs|myproc|psync|settext|WinExec|secname|units|neuronhome|getcwd|nrnversion|object_pushed|)\\b",
+      "match":"\\b(sin|cos|atan|tanh|log|log10|exp|sqrt|int|abs|erf|erfc|atan2|system|prmat|solve|eqinit|plt|axis|plot|plotx|ploty|regraph|symbols|printg|xred|sred|ropen|wopen|xopen|hoc_stdout|chdir|fprint|fscan|sscanf|sprint|graph|graphmode|fmenu|lw|getstr|strcmp|setcolor|startsw|stopsw|object_id|allobjectvars|allobjects|xpanel|xbutton|xcheckbox|xstatebutton|xlabel|xmenu|xvalue|xpvalue|xradiobutton|xfixedvalue|xvarlabel|xslider|boolean_dialog|continue_dialog|string_dialog|doEvents|doNotify|ivoc_style|numarg|argtype|hoc_pointer_|nrn_mallinfo|execute|execute1|load_proc|load_func|load_template|load_file|load_java|unix_mac_pc|show_winio|nrn_load_dll|machine_name|saveaudit|retrieveaudit|coredump_on_error|checkpoint|quit|object_push|object_pop|pwman_place|save_session|print_session|show_errmess_always|execerror|variable_domain|name_declared|use_mcell_ran4|mcell_ran4|mcell_ran4_init|numprocs|myproc|psync|settext|WinExec|secname|units|neuronhome|getcwd|nrnversion|object_pushed|load|pt3dadd)\\b",
       "name":"support.function.neuron"
     },
     {  
