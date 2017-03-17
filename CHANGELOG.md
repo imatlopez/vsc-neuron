@@ -1,5 +1,9 @@
 # Change Log
 
+## v0.0.5
+- Add .ses to neuron syntax
+- Add ENDVERBATIM as a keyword
+
 ## v0.0.4
 - Fixed hoc line comment bug
 - Added pt3dadd as a function keyword

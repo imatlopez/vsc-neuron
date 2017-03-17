@@ -1,6 +1,7 @@
 {  
   "fileTypes":[  
-    "hoc"
+    "hoc",
+    "ses"
   ],
   "name":"Neuron",
   "patterns":[
