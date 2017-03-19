@@ -1,5 +1,8 @@
 # Change Log
 
+## v0.0.6
+- Adds additional missing keywords
+
 ## v0.0.5
 - Add .ses to neuron syntax
 - Add ENDVERBATIM as a keyword

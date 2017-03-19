@@ -2,7 +2,7 @@
     "name": "vscode-neuron",
     "displayName": "vscode-neuron",
     "description": "Adds NEURON and NMODL syntax highlighting.",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "publisher": "imatlopez",
     "icon": "icon.png",
     "repository": {
@@ -11,12 +11,9 @@
     },
     "keywords": [
         "neuron",
-        "yale",
-        "duke",
         "neuroscience",
-        ".hoc",
-        ".ses",
-        ".mod"
+        "model",
+        ".hoc"
     ],
     "homepage": "https://github.com/imatlopez/vscode-neuron",
     "bugs": {
