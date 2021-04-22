@@ -23,7 +23,7 @@
         "vscode": "^1.5.0"
     },
     "categories": [
-        "Languages"
+        "Programming Languages"
     ],
     "contributes": {
         "languages": [{
@@ -40,11 +40,11 @@
         "grammars": [{
             "language": "neuron",
             "scopeName": "source.neuron",
-            "path": "./syntaxes/neuron.tmLanguage.json"
+            "path": "./syntaxes/Neuron.tmLanguage"
         }, {
             "language": "nmodl",
             "scopeName": "source.nmodl",
-            "path": "./syntaxes/nmodl.tmLanguage.json"
+            "path": "./syntaxes/NMODL.tmLanguage"
         }]
     }
 }

@@ -1,5 +1,8 @@
 # Change Log
 
+## v0.1.0
+- Syncs upstream changes
+
 ## v0.0.6
 - Adds additional missing keywords
 

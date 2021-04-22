@@ -1,4 +1,3 @@
-vsc-neuron
-=======================
+# NEURON for Visual Studio Code
 
-Adds NEURON .hoc, .inc, and .mod syntax highlighting to VS Code.
+NEURON .hoc, .ses, .inc and .mod syntax highlighting for VS Code.
