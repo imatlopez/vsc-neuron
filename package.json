@@ -2,7 +2,7 @@
     "name": "vscode-neuron",
     "displayName": "vscode-neuron",
     "description": "Adds NEURON and NMODL syntax highlighting.",
-    "version": "0.0.6",
+    "version": "0.1.0",
     "publisher": "imatlopez",
     "icon": "icon.png",
     "repository": {
@@ -26,25 +26,43 @@
         "Programming Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "neuron",
-            "aliases": ["Neuron", "neuron"],
-            "extensions": [".hoc", ".ses"],
-            "configuration": "./language-configuration.json"
-        }, {
-            "id": "nmodl",
-            "aliases": ["Neuron", "neuron"],
-            "extensions": [".mod", ".inc"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "neuron",
-            "scopeName": "source.neuron",
-            "path": "./syntaxes/Neuron.tmLanguage"
-        }, {
-            "language": "nmodl",
-            "scopeName": "source.nmodl",
-            "path": "./syntaxes/NMODL.tmLanguage"
-        }]
+        "languages": [
+            {
+                "id": "neuron",
+                "aliases": [
+                    "Neuron",
+                    "neuron"
+                ],
+                "extensions": [
+                    ".hoc",
+                    ".ses"
+                ],
+                "configuration": "./language-configuration.json"
+            },
+            {
+                "id": "nmodl",
+                "aliases": [
+                    "Neuron",
+                    "neuron"
+                ],
+                "extensions": [
+                    ".mod",
+                    ".inc"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "neuron",
+                "scopeName": "source.neuron",
+                "path": "./syntaxes/Neuron.tmLanguage"
+            },
+            {
+                "language": "nmodl",
+                "scopeName": "source.nmodl",
+                "path": "./syntaxes/NMODL.tmLanguage"
+            }
+        ]
     }
 }
