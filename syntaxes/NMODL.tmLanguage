@@ -16,7 +16,26 @@
 			<string>"(?:[^"\\]|\\.)*"</string>
 			<key>name</key>
 			<string>string.quoted.double</string>
-		</dict>	
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>entity.represented</string>
+			<key>match</key>
+			<string>\b(REPRESENTS)\b\s+([^:\s]+:[^:\s]+)</string>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>keyword.other.nmodl</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>entity.identifier</string>
+				</dict>
+			</dict>
+		</dict>
 		<dict>
 			<key>match</key>
 			<string>(\:).*$\n?</string>
