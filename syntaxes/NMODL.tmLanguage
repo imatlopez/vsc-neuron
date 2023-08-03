@@ -13,6 +13,12 @@
 	<array>
 		<dict>
 			<key>match</key>
+			<string>"(?:[^"\\]|\\.)*"</string>
+			<key>name</key>
+			<string>string.quoted.double</string>
+		</dict>	
+		<dict>
+			<key>match</key>
 			<string>(\:).*$\n?</string>
 			<key>name</key>
 			<string>comment.line.nmodl</string>
