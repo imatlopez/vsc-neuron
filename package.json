@@ -2,7 +2,7 @@
     "name": "vscode-neuron",
     "displayName": "vscode-neuron",
     "description": "Adds NEURON and NMODL syntax highlighting.",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "publisher": "imatlopez",
     "icon": "icon.png",
     "repository": {
